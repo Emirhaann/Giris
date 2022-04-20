@@ -1,195 +1,256 @@
 ﻿using System;
 
-namespace KararYapıları
+namespace KararYapilari
 {
     internal class Program
     {
+        /*
+        KARAR YAPILARI
+          Uygulamanizin calismasi esnasinda farkli senaryolara gore farkli yonlendirmeler yapmaniz gerekebilir.Ornegin, kullanicidan gelen degerin araligina gore, uygulamadaki mantiksal islerinizin sonuclarina gore yonlendirmeler yapabiliriz.
+          3 temel karar yapısı karsimiza cikar => IF-ELSE ~SWITCH-CASE ~TERNARY OPERATORU
+      */
+
+        /*
+         * KARSILASTIRMA OPERATORLERI
+         * 1) ==  (Karsilikli iki degerin birbiriyle esit olmasi durumu)
+         * 2) !=  (Karsilikli iki degerin birbiriyle esit olmamasi durumu)
+         * 3) <   (Soldaki degerin sagdaki degerden kucuk olmasi durumu)
+         * 4) >   (Soldaki degerin sagdaki degerden buyuk olmasi durumu)
+         * 5) <=  (Soldaki degerin sagdaki degere esit ya da ondan kucuk olmasi durumu)
+         * 6) >=  (Soldaki degerin sagdaki degere esit ya da ondan buyuk olmasi durumu)
+         */
+
         static void Main(string[] args)
         {
-            #region örnek 1
+            #region Ornek 1
             //string kod;
-            //Console.WriteLine("içecek kodunu girini");
-            //kod= Console.ReadLine();
+            //Console.WriteLine("İçecek Kodunu giriniz:");
+            //kod = Console.ReadLine();
 
             //if (kod == "Ç" || kod=="ç")
             //{
-            //    Console.WriteLine("Çay");
+            //    Console.WriteLine("çay");
             //}
-            //else if (kod =="M" || kod=="m")
+            //else if (kod == "M" || kod=="m")
             //{
-            //    Console.WriteLine("Meyve Suyu");
 
+            //    Console.WriteLine("Meyve Suyu");
             //}
-            //else if (kod =="L" || kod=="l")
+            //else if (kod == "L" || kod == "l")
             //{
             //    Console.WriteLine("Limonata");
-
             //}
             //else
             //{
             //    Console.WriteLine("girilen kod çözülemedi");
-            //}
-            #endregion 
+            //} 
+            #endregion
 
-
-            #region örnek 2
-            //Ekrandan kullanıcı adı ve parola alınacak
-            //doğru ise hoşgeldiniz desin
-            //diğer türlü hangisinin hatalı olduğunu ekrana yazdsın
-            //kullanıcı adı: admin parola: asdfasd
-
-            string kullanıcıadı, parola;
-
-            //Console.WriteLine("kullanıcı adı giriniz");
-            //kullanıcıadı= Console.ReadLine();
-
-            //Console.WriteLine("parolanızı giriniz");
-            //parola= Console.ReadLine();
-
-            //if (kullanıcıadı == "Admin" && parola == "qweasd")
+            // && ve operatoru , || veya operatoru
+            // Ekrandan kullanici Adi ve parola alinacak. 
+            // Dogru girmis ise hosgeldiniz mesajı versin 
+            // Diger turlu hangisinin hatali oldugunu ekrana yazsin.
+            // kullaniciAdi : Admin ,parola : qweasd
+            string kullaniciAdi, parola;
+            Console.WriteLine("Kullanici adiniz:");
+            kullaniciAdi = Console.ReadLine();
+            Console.WriteLine("Parolaniz:");
+            parola = Console.ReadLine();
+            // Normalde olmasi gereken budur
+            //if (kullaniciAdi == "Admin" && parola=="qweasd")
             //{
-            //    Console.WriteLine("Hoşgeldin sahip..");
+            //    Console.WriteLine("Hosgeldin Sahip..");
             //}
             //else
             //{
-            //    Console.WriteLine("lütfen geçerli bir kullanıcı adı veya şifre giriniz");
+            //    Console.WriteLine("Kullanici Kodunuz yada sifre hatali");
+            //}
 
-            //    //DETAYLI BİLGİ İÇİN
-            //    //bi dene ad doğru şifre yanlış vs
+
+            // Detayli bilgi icin 1. Yol
+            #region 1.Yol
+
+            //if (kullaniciAdi == "Admin")
+            //{
+            //    if (parola == "qweasd")
+            //    {
+            //        Console.WriteLine("Hosgeldiniz...");
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("KullaniciAdi Dogrudur. ancak Parola yanlistir.");
+            //    }
+            //}
+            //else
+            //{
+
+            //    if (parola == "qweasd")
+            //    {
+            //        Console.WriteLine("Parola Dogru ancak Kullanici Kodu Hatalidir");
+
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("Parolada yanliş Kullanici Kodu da yanlis");
+
+            //    }
+            //} 
+            #endregion
+            #region 2. Yol
+            // kod dogru sifre dogru
+            // kod dogru sifre yanlis
+            // kod yanlis sifre yanlis
+            // kod yanlis sifre dogru
+
+            //if (kullaniciAdi == "Admin" && parola == "qweasd")
+            //{
+            //    Console.WriteLine("Hosgeldiniz");
+            //}
+            //else if (kullaniciAdi == "Admin" && parola != "qweasd")
+            //{
+            //    Console.WriteLine("Kullanici dogru , Sifre yanliş");
+            //}
+            //else if (kullaniciAdi != "Admin" && parola != "qweasd")
+            //{
+            //    Console.WriteLine("Butun bilgiler yanliştir");
+            //}
+            //else if (kullaniciAdi != "Admin" && parola == "qweasd")
+            //{
+            //    Console.WriteLine("Kullanici yanliş ,Parola dogru.");
+            //}
+
+            #endregion
+            #region Ornek 2
+
+            //Girilen not 0 - 30 araligi ise "FF" 30 - 50 araligi
+            // "DD" 50 - 70 "BB" 70 - 100 "AA" aldınız seklinde
+            // kullaniciyi uyariniz..
+            //Console.WriteLine("Notunuz:");
+            //int not = int.Parse(Console.ReadLine());    
+            //if (not >= 0 && not < 30)
+            //{
+            //    Console.WriteLine("Notunuz:FF");
+            //}
+            //else if (not >= 30 && not < 50)
+            //{
+            //    Console.WriteLine("Notunuz:DD");
+
+            //}
+            //else if (not >= 50 && not < 70)
+            //{
+            //    Console.WriteLine("Notunuz:BB");
+            //}
+            //else if (not >= 70 && not <= 100)
+            //{
+            //    Console.WriteLine("Notunuz:AA");
+
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Boyle bir not yok..");   
             //}
 
             #endregion
 
+            #region Ornek 3
+            //Disaridan urun adi girilecek, kasiyer bize urunun hangi reyonda oldugunu soyleyecek...
+            //Domates, Biber, Patlican => Sebze Reyonu
+            //Diş Macunu, Parfüm, Şampuan => Kozmetik Reyonu
+            //Cep Telefonu, Bilgisayar, Ses Sistemi => Teknoloji Reyonu
+            //Başka bir ürün girilirse "Bu ürün bizde yok!" uyarisi verilsin!
+            //string input;
+            //Console.WriteLine("Ne ariyorsunuz:");
+            //input = Console.ReadLine();
 
+            //if (input == "Domates" || input == "Biber" || input == "Patlican") 
+            //{
+            //    Console.WriteLine("Lutfen Manav Reyonuna Gidiniz");
+            //}
+            //else if (input == "Diş Macunu" || input == "Parfüm" || input == "Şampuan")
+            //{
+            //    Console.WriteLine("Lutfen Kozmetik Reyonuna  Gidiniz");
+            //}
+            //else if (input == "Cep Telefonu" || input == "Bilgisayar" || input == "Ses Sistemi")
+            //{
+            //    Console.WriteLine("Lutfen Teknoloji Reyonuna Gidiniz");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Bu ürün bizde yok! ");
+            //}
+            #endregion
+            #region Ornek 4
+            //Disaridan siparis alinacak olan kitap miktari girilsin.
+            //Sipari sayisi 20'den azsa toplam ucretten %5,
+            //20 - 50 araliginda ise %10, 50-100 araligi ise %15,
+            //100'den fazla ise %25 indirim yapilsin.
+            //Kitabın birim fiyatı => 5 TLdir...
+            //Amac => Odenecek tutari kullaniciya gostermek...
 
-            #region örnek 3
+            int kitapSayisi, fiyat = 5;
+            float indirim = 0;
+            Console.WriteLine("Kitap Adedi:");
+            kitapSayisi = int.Parse(Console.ReadLine());
 
-            // kod doğru şifre doğru
-            // kod doğru şifre yanlış
-            // kod yanlış şifre doğru
-            // kod yanlış şifre yanlış
-            //string kullanıcıadı, parola;
-
-            Console.WriteLine("kullanıcı adı giriniz");
-            kullanıcıadı = Console.ReadLine();
-
-            Console.WriteLine("parolanızı giriniz");
-            parola = Console.ReadLine();
-
-            if (kullanıcıadı == "Admin" && parola == "qweasd")
+            if (kitapSayisi < 20)
             {
-                Console.WriteLine("hoşgeldiniz sahip..");
+                indirim = fiyat * kitapSayisi * 5 / 100;
             }
 
-            else if (kullanıcıadı == "Admin" && parola != "qweasd")
+            else if (kitapSayisi >= 20 && kitapSayisi < 50)
             {
-                Console.WriteLine("kullanıcıadı doğru şifre yanlış");
+                indirim = fiyat * kitapSayisi * 10 / 100;
             }
+            else if (kitapSayisi >= 50 && kitapSayisi < 100)
+            {
+                indirim = fiyat * kitapSayisi * 15 / 100;
+
+            }
+            else if (kitapSayisi >= 100)
+            {
+                indirim = fiyat * kitapSayisi * 25 / 100;
+
+            }
+            Console.WriteLine($"Normal Tutar :{kitapSayisi * fiyat} ");
+            Console.WriteLine($"indirim Tutari :{indirim} ");
+            Console.WriteLine($"Odenecek Tutar :{(kitapSayisi * fiyat) - indirim}");
+
+
+
+
+            #endregion
+            #region Sorular
+            /*
+             Kullanicidan 2 sayi alin
+             Birde Ekrana [+,-,/,*] 
+            Bunlardan hangisini girdi ise ona gore işlem yapin
+             */
+
+
+            /*
+             Soru 2: Ekrandan girilen mevsime gore aylari bastirin.
+             */
+            //string input;
+            //Console.WriteLine("Mevsim Giriniz:");
+            //input = Console.ReadLine();
+            
+            //if (input == "kış" || input == "Kış")
+            //{
+            //    Console.WriteLine("Aralık, Ocak, Şubat");
+            //}
+            //gibi devam ettir.
+
+            /*
+             Ekrandan suyun sicakligini alin. Ve Kati ,sivi ,Gaz halini belirleyin
+             */
+
+            /*
+             Girilen bir tam sayinin kaç basamakli oldugunu ekrana yaziniz.
+             
+             */
             #endregion
 
 
-            #region örnek 4
-
-
-            //Girilen not 0-30 arasında ise FF
-            //30-50 ise dd 
-            //50-70 ise bb
-            //70-100 ise aa
-
-            Console.WriteLine("Bir not giriniz");
-
-            int not = int.Parse(Console.ReadLine());
-
-
-            if (not >= 0 && not <= 30)
-            {
-                Console.WriteLine("FF notu aldınız");
-
-            }
-
-
-            else if (not >= 30 && not <= 50)
-            {
-                Console.WriteLine("DD harf notu aldınız");
-
-            }
-
-            else if (not >= 70 && not <= 100)
-            {
-                Console.WriteLine("AA notu ile geçtiniz");
-
-            }
-            else
-            {
-
-                Console.WriteLine("Böyle bir not yok");
-                #endregion
-
-            #region örnek 5
-                //dışarıdan ürün adı girilecek kasiye bize ürünün hangi reyondan olduğunu söyelecek
-                //domates biber patlucan= sebze
-                //,diş macunu parfüm şampuan= kozmatik
-                //cep telefonu bilgisayar ses sistemi= teknoloji reyonu
-                //başka bir ürün girilise bu ürün bizde yok denicek
-
-
-                string input;
-
-                Console.WriteLine("Ne arıyorsunuz:");
-                input = Console.ReadLine();
-
-                if (input == "Domates" || input == "biber" || input == "patlıcan")
-                {
-                    Console.WriteLine("ürününüz sebze reyonuna ait");
-                }
-                else if (input == "diş macunu" || input == "parfüm" || input == "şampuan")
-                {
-                    Console.WriteLine("ürününüz kozmatik reyouna ait");
-                }
-                else if (input == "ceptelefonu" || input == "bilgisayar" || input == "sessistemi")
-                {
-                    Console.WriteLine("Ürününüz teknoloji reyonuna ait");
-                }
-
-                else
-                {
-                    Console.WriteLine("böyle bir ürün yok");
-                }
-
-
-                #endregion
-
-                #region örnek 6
-
-                //dışarıdan sipariş alınacak olan kitap miktarı girilsin
-                //sipariş sayısı 20 den azsa toplam ücretten %5
-                //20 50 arasında ise %10 50-100 arasındda ise %15
-                //100 den fazla ise %25 indirim yapılsın
-                //kitap 5 tl
-                // ne kadar ödemesi lazım göster
-
-                #endregion
-
-
-                #region örnek 7
-
-                //kullanıcıdan 2 sayı al
-                // ekrana[+,-,*,]
-                //hangisini girdiyse ona göre işlem yapsın
-                #endregion
-
-
-                #region örnek 8
-                // ekrana girilen mevsime göre ayları yazın
-                #endregion
-
-
-
-
-
-            }
-
         }
-
     }
 }

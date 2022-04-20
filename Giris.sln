@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ilkConsole", "ilkConsole\il
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AritmetikIslemler", "AritmetikIslemler\AritmetikIslemler.csproj", "{2D3B024E-EED0-4020-94DB-49F932DD850F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TryCatch", "TryCatch\TryCatch.csproj", "{04CB5231-D8B6-4C1D-BFF2-C134035C75CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TryCatch", "TryCatch\TryCatch.csproj", "{04CB5231-D8B6-4C1D-BFF2-C134035C75CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KararYapıları", "KararYapıları\KararYapıları.csproj", "{D7FE4FEE-A6BE-49CF-B2B1-5780E3006958}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KararYapıları", "KararYapıları\KararYapıları.csproj", "{D7FE4FEE-A6BE-49CF-B2B1-5780E3006958}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwitchCase", "SwitchCase\SwitchCase.csproj", "{3E6992C0-5EC6-4C4E-81C0-625FF4790325}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{D7FE4FEE-A6BE-49CF-B2B1-5780E3006958}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7FE4FEE-A6BE-49CF-B2B1-5780E3006958}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7FE4FEE-A6BE-49CF-B2B1-5780E3006958}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E6992C0-5EC6-4C4E-81C0-625FF4790325}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E6992C0-5EC6-4C4E-81C0-625FF4790325}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E6992C0-5EC6-4C4E-81C0-625FF4790325}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E6992C0-5EC6-4C4E-81C0-625FF4790325}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
