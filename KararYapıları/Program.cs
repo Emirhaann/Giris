@@ -51,11 +51,11 @@ namespace KararYapilari
             // Dogru girmis ise hosgeldiniz mesajı versin 
             // Diger turlu hangisinin hatali oldugunu ekrana yazsin.
             // kullaniciAdi : Admin ,parola : qweasd
-            string kullaniciAdi, parola;
-            Console.WriteLine("Kullanici adiniz:");
-            kullaniciAdi = Console.ReadLine();
-            Console.WriteLine("Parolaniz:");
-            parola = Console.ReadLine();
+            //string kullaniciAdi, parola;
+            //Console.WriteLine("Kullanici adiniz:");
+            //kullaniciAdi = Console.ReadLine();
+            //Console.WriteLine("Parolaniz:");
+            //parola = Console.ReadLine();
             // Normalde olmasi gereken budur
             //if (kullaniciAdi == "Admin" && parola=="qweasd")
             //{
@@ -187,33 +187,33 @@ namespace KararYapilari
             //Kitabın birim fiyatı => 5 TLdir...
             //Amac => Odenecek tutari kullaniciya gostermek...
 
-            int kitapSayisi, fiyat = 5;
-            float indirim = 0;
-            Console.WriteLine("Kitap Adedi:");
-            kitapSayisi = int.Parse(Console.ReadLine());
+            //int kitapSayisi, fiyat = 5;
+            //float indirim = 0;
+            //Console.WriteLine("Kitap Adedi:");
+            //kitapSayisi = int.Parse(Console.ReadLine());
 
-            if (kitapSayisi < 20)
-            {
-                indirim = fiyat * kitapSayisi * 5 / 100;
-            }
+            //if (kitapSayisi < 20)
+            //{
+            //    indirim = fiyat * kitapSayisi * 5 / 100;
+            //}
 
-            else if (kitapSayisi >= 20 && kitapSayisi < 50)
-            {
-                indirim = fiyat * kitapSayisi * 10 / 100;
-            }
-            else if (kitapSayisi >= 50 && kitapSayisi < 100)
-            {
-                indirim = fiyat * kitapSayisi * 15 / 100;
+            //else if (kitapSayisi >= 20 && kitapSayisi < 50)
+            //{
+            //    indirim = fiyat * kitapSayisi * 10 / 100;
+            //}
+            //else if (kitapSayisi >= 50 && kitapSayisi < 100)
+            //{
+            //    indirim = fiyat * kitapSayisi * 15 / 100;
 
-            }
-            else if (kitapSayisi >= 100)
-            {
-                indirim = fiyat * kitapSayisi * 25 / 100;
+            //}
+            //else if (kitapSayisi >= 100)
+            //{
+            //    indirim = fiyat * kitapSayisi * 25 / 100;
 
-            }
-            Console.WriteLine($"Normal Tutar :{kitapSayisi * fiyat} ");
-            Console.WriteLine($"indirim Tutari :{indirim} ");
-            Console.WriteLine($"Odenecek Tutar :{(kitapSayisi * fiyat) - indirim}");
+            //}
+            //Console.WriteLine($"Normal Tutar :{kitapSayisi * fiyat} ");
+            //Console.WriteLine($"indirim Tutari :{indirim} ");
+            //Console.WriteLine($"Odenecek Tutar :{(kitapSayisi * fiyat) - indirim}");
 
 
 
