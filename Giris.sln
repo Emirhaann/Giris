@@ -25,6 +25,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Diziler", "Diziler", "{53CE
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Diziler", "Diziler\Diziler.csproj", "{8BE9B8A8-9225-4B22-B513-0F037BDCF010}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ŞansOyunları", "ŞansOyunları\ŞansOyunları.csproj", "{F8629BCB-140C-4A34-9BA6-4146CA7B3559}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -67,6 +69,10 @@ Global
 		{8BE9B8A8-9225-4B22-B513-0F037BDCF010}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8BE9B8A8-9225-4B22-B513-0F037BDCF010}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8BE9B8A8-9225-4B22-B513-0F037BDCF010}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8629BCB-140C-4A34-9BA6-4146CA7B3559}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8629BCB-140C-4A34-9BA6-4146CA7B3559}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8629BCB-140C-4A34-9BA6-4146CA7B3559}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8629BCB-140C-4A34-9BA6-4146CA7B3559}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -76,6 +82,7 @@ Global
 		{49AA4396-64E7-4A1F-9672-F2ECE067CECB} = {0BD4EF0F-61D3-4DB7-9CCF-1C77D86DCC27}
 		{5ABE9B5D-E2F1-4D15-9625-8545781F9399} = {0BD4EF0F-61D3-4DB7-9CCF-1C77D86DCC27}
 		{8BE9B8A8-9225-4B22-B513-0F037BDCF010} = {53CE6523-CF8F-4F96-8F9A-F49066071201}
+		{F8629BCB-140C-4A34-9BA6-4146CA7B3559} = {53CE6523-CF8F-4F96-8F9A-F49066071201}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {83CA42C6-BD19-410E-B630-567500E470DD}
