@@ -35,6 +35,8 @@ namespace DoWhile
             Console.WriteLine("Tek toplamlar:" + tektoplam);
             Console.WriteLine("cift toplamlar:"+ cifttoplam);
 
+           
+            
             //cevabı yazıyo soruyu istiyo
 
             int a=1, b = 5;
