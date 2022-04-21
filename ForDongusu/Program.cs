@@ -17,10 +17,10 @@ namespace ForDongusu
 
             //bir ile 10 arasında ki çift sayıları ekrana mod almadan basınız
 
-            for (int i = 0; i <=10; i++)
-            {
-                Console.WriteLine(i);
-            }
+            //for (int i = 0; i <=10; i++)
+            //{
+            //    Console.WriteLine(i);
+            //}
 
             #endregion
 
@@ -30,10 +30,10 @@ namespace ForDongusu
 
             //1-10 arası tek sayıları tersten sıralı şekilde ekrana gelsin
 
-            for (int i = 9; i > 0; i = i - 2)
-            {
-                Console.WriteLine(i);
-            }
+            //for (int i = 9; i > 0; i = i - 2)
+            //{
+            //    Console.WriteLine(i);
+            //}
 
             #endregion
 
@@ -42,42 +42,59 @@ namespace ForDongusu
             // ayın ilk günü pazartesi olarak kabul edildiğinde
             //30 günlük takvimde Pazar günlerini ekrana basın
 
-            for (int i = 0; i < 30; i = i + 7)
-            {
-                Console.WriteLine(i);
-            }
+            //for (int i = 0; i < 30; i = i + 7)
+            //{
+            //    Console.WriteLine(i);
+            //}
             #endregion
             #region örnek 5
 
-            for (char c = 'A'; c < 'Z'; c++)
-            {
-                Console.WriteLine(c + "-" + Convert.ToInt32(c));
-            }
+            //for (char c = 'A'; c < 'Z'; c++)
+            //{
+            //    Console.WriteLine(c + "-" + Convert.ToInt32(c));
+            //}
             #endregion
 
             #region örnek 6
-            Console.WriteLine(DateTime.Now);
-            Console.WriteLine("yil:" + DateTime.Now.Year);
-            Console.WriteLine("ay:" + DateTime.Now.Month);
-            Console.WriteLine("Gün:" + DateTime.Now.Day);
-            Console.WriteLine("haftanın kaçıncı günü:" + DateTime.Now.DayOfWeek);
-            Console.WriteLine("yılın kaçıncı günü:"+ DateTime.Now.DayOfYear);
+            //Console.WriteLine(DateTime.Now);
+            //Console.WriteLine("yil:" + DateTime.Now.Year);
+            //Console.WriteLine("ay:" + DateTime.Now.Month);
+            //Console.WriteLine("Gün:" + DateTime.Now.Day);
+            //Console.WriteLine("haftanın kaçıncı günü:" + DateTime.Now.DayOfWeek);
+            //Console.WriteLine("yılın kaçıncı günü:"+ DateTime.Now.DayOfYear);
 
-            for (int i = 2010; i <= DateTime.Now.Year; i++)
-            {
-                //Pandemi yıllarını es geçelim 2020-2021
-                if (i == 2020 || i == 2021)
-                {
-                    continue;
-                }
+            //for (int i = 2010; i <= DateTime.Now.Year; i++)
+            //{
+            //    //Pandemi yıllarını es geçelim 2020-2021
+            //    if (i == 2020 || i == 2021)
+            //    {
+            //        continue;
+            //    }
                 
 
-                    Console.WriteLine(i);
+            //        Console.WriteLine(i);
 
 
-            }
+            //}
 
             #endregion
+
+            #region örnek 7
+            for (int i = 0; i < 100; i++)
+            {
+                if (i % 12 != 0)
+                    continue;
+                else
+                    Console.WriteLine(i);
+               
+            }
+            //break kullanımı 
+            for (int i = 0; i < 10; i++)
+            {
+                if (i == 3)
+                    break;
+                //retrun koyarsan break  yerine direk olduğu scopten çıkıyor
+            }
         }
     }
 }
