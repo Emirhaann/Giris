@@ -41,6 +41,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetodGiris", "MetodGiris\Me
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VoidMetodlar(2)", "VoidMetodlar\VoidMetodlar(2).csproj", "{5233EE5F-5348-45BE-9C17-B212213EF1E9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParametreliMetodlar", "ParametreliMetodlar\ParametreliMetodlar.csproj", "{22B1FD07-B9AA-4A00-944A-44D011BE7F40}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,10 @@ Global
 		{5233EE5F-5348-45BE-9C17-B212213EF1E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5233EE5F-5348-45BE-9C17-B212213EF1E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5233EE5F-5348-45BE-9C17-B212213EF1E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22B1FD07-B9AA-4A00-944A-44D011BE7F40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22B1FD07-B9AA-4A00-944A-44D011BE7F40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22B1FD07-B9AA-4A00-944A-44D011BE7F40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22B1FD07-B9AA-4A00-944A-44D011BE7F40}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -127,6 +133,7 @@ Global
 		{A4DBBE86-080C-45CF-939C-08BFA6CCBAD3} = {53CE6523-CF8F-4F96-8F9A-F49066071201}
 		{1BC21064-980C-477E-9C08-3753EF39349C} = {080B758E-C50B-491C-8D8B-0DA8B5D82D9F}
 		{5233EE5F-5348-45BE-9C17-B212213EF1E9} = {080B758E-C50B-491C-8D8B-0DA8B5D82D9F}
+		{22B1FD07-B9AA-4A00-944A-44D011BE7F40} = {080B758E-C50B-491C-8D8B-0DA8B5D82D9F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {83CA42C6-BD19-410E-B630-567500E470DD}
