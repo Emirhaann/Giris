@@ -1,4 +1,4 @@
-﻿using System;
+﻿ using System;
 
 namespace ParametreliMetodlar
 {
@@ -7,6 +7,7 @@ namespace ParametreliMetodlar
         //dışarıdan gelecek olan değerelere göre işlem değişerecek olan metodlar
         static void Main(string[] args)
         {
+            AsalSayi();
             EkranaYazdir("Naber gülüm");
             Console.WriteLine("Hello World!");
             sesliHarfSayisi("şemsi paşa pasajında sesi büzülesiceler");
@@ -50,6 +51,24 @@ namespace ParametreliMetodlar
             foreach (char harf in mesaj)
             {
                 Console.WriteLine(harf);
+            }
+        }
+
+        static void AsalSayi()
+        { 
+            //2 NUMARALI ÖRNEK
+
+            int sayı;
+            Console.Write("Bir sayı giriniz");
+            sayı = int.Parse(Console.ReadLine());
+            
+            if ( sayı % 2 != 0)
+            {
+                Console.WriteLine("Girdiğiniz Sayı Asal Sayıdır");
+            }
+            else
+            {
+                Console.WriteLine("Girdiğiniz sayı asal değildir");
             }
         }
     }
