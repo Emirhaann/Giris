@@ -31,11 +31,11 @@ namespace AritmetikIslemler
 
             //Console.WriteLine("----------Bölme----------");
 
-            ////int bölüm = sayi1 / sayi2;
-            ////Eğer sonucu küsüratlı görmek istiyorsak, float ya da decimal veri tipine çevirmek gerekir
-            //float bölüm = sayi1 / Convert.ToSingle(sayi2);
-            //Console.WriteLine("bölüm:" + bölüm);
-            //Console.WriteLine("bölüm:" + (sayi1 / sayi2));
+            //int bölüm = sayi1 / sayi2;
+            //Eğer sonucu küsüratlı görmek istiyorsak, float ya da decimal veri tipine çevirmek gerekir
+            float bölüm = sayi1 / Convert.ToSingle(sayi2);
+            Console.WriteLine("bölüm:" + bölüm);
+            Console.WriteLine("bölüm:" + (sayi1 / sayi2));
 
             ////0 a bölme hatası
             //sayi2 = 0;
@@ -58,7 +58,7 @@ namespace AritmetikIslemler
             //Console.WriteLine("sayi "+sayi1);
 
             #endregion
-            
+
             #region Ekrandan değer okuma
             /*
              * ekrandan değer okumak için console.ReadLine() kullanılır
@@ -86,6 +86,13 @@ namespace AritmetikIslemler
             ////Soru1: Dışarıdan alınan 2 sayının toplamıyla, farkının birbirlerine bölümünden kalanınsonucu kaçtır
             ////soru 2 farkın toplama bölümünden kalan kaçtır
 
+            //ÇALIŞIRKEN YAPTIM
+            //int sayı1; int sayı2; 
+            //Console.WriteLine("1. Sayıyı giriniz");
+            //sayı1=int.Parse(Console.ReadLine());
+            //Console.WriteLine("2. sayıyı giriniz");
+            //sayı2=int.Parse(Console.ReadLine());
+            //Console.WriteLine("toplam fark bölümleri:" + (sayı1 + sayı2)/(sayı1-sayı2));
 
             //string input = "";
             //Console.WriteLine("1.sayıyı giriniz");
@@ -148,10 +155,10 @@ namespace AritmetikIslemler
             //vize1 = float.Parse(Console.ReadLine());
 
             //Console.WriteLine("2.vize:");
-            //vize2= float.Parse(Console.ReadLine()); 
+            //vize2 = float.Parse(Console.ReadLine());
 
             //Console.WriteLine("final");
-            //final= float.Parse(Console.ReadLine());
+            //final = float.Parse(Console.ReadLine());
 
             //ortalama = (vize1 + vize2) / 2 * 30 / 100 + final * 70 / 100;
 
@@ -161,6 +168,17 @@ namespace AritmetikIslemler
 
             #region
             //dışarıdan girilen ad soy ad bilgilerini alarak aaaa@hotmail.com oluştur
+
+            //BENİM ÖRNEK
+            //string ad, soyad, email;
+
+            //Console.WriteLine("Adınızı giriniz.");
+            //ad=Console.ReadLine();
+            //Console.WriteLine("Soy adınızı giriniz");
+            //soyad=Console.ReadLine();
+            //Console.WriteLine("Mail adresiniz:" + ad + soyad + "@hotmail.com");
+
+
 
             //string ad, soyad, email;
 
@@ -192,8 +210,8 @@ namespace AritmetikIslemler
 
             //if (sayi2 != 0) ;
             //{
-            //    float bolum = sayi1 /(float) sayi2;
-            //    Console.WriteLine("sonuç=" + bolum);                          
+            //    float bolum = sayi1 / (float)sayi2;
+            //    Console.WriteLine("sonuç=" + bolum);
             //}
 
             #endregion
