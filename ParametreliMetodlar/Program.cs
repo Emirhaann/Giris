@@ -57,6 +57,7 @@ namespace ParametreliMetodlar
         static void AsalSayi()
         { 
             //2 NUMARALI ÖRNEK
+            //YANLIŞMIŞ!!!
 
             int sayı;
             Console.Write("Bir sayı giriniz");
