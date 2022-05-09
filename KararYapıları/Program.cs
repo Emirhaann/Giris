@@ -66,27 +66,6 @@ namespace KararYapilari
             //    Console.WriteLine("Kullanici Kodunuz yada sifre hatali");
             //}
 
-            //string kullanıcıAdı, parola;
-
-            //BEN YAPTIM
-
-            //Console.WriteLine("Kullanıcı adınızı giriniz");
-            //kullanıcıAdı=Console.ReadLine();
-            //Console.WriteLine("Parolanızı giriniz");
-            //parola=Console.ReadLine();
-
-            //if (kullanıcıAdı == "Admin" && parola=="qweasd")
-            //{
-            //    Console.WriteLine("HOŞGELDİN SAHİP");
-            //}
-            //else
-            //{
-            //    Console.WriteLine("Girdiğiniz bilgiler hatalı");
-            //}
-
-
-
-
 
             // Detayli bilgi icin 1. Yol
             #region 1.Yol
@@ -179,35 +158,6 @@ namespace KararYapilari
             //Diş Macunu, Parfüm, Şampuan => Kozmetik Reyonu
             //Cep Telefonu, Bilgisayar, Ses Sistemi => Teknoloji Reyonu
             //Başka bir ürün girilirse "Bu ürün bizde yok!" uyarisi verilsin!
-
-
-            //BEN YAZDIM
-
-            //string ürün;
-
-            //Console.WriteLine("Ne istiyorsunuz.");
-            //ürün = Console.ReadLine();
-
-            //if (ürün == "domates" || ürün == "biber" || ürün == "patlıcan")
-            //{
-            //    Console.WriteLine("Sebze reyonuna gidiniz");
-            //}
-            //else if (ürün == "diş macunu" || ürün == "parfüm" || ürün == "şampuan")
-            //{
-            //    Console.WriteLine("aradığınız ürün kozmatik reyonundadır");               
-            //}
-            //else if (ürün == "cepTelefonu" || ürün == "bilgisayar" || ürün == "ses sitemi")
-            //{
-            //    Console.WriteLine("aradığınız ürünler teknoloji reyonundadır.");
-            //}
-            //else
-            //{
-            //    Console.WriteLine("aradığınız ürün mağazamızda bulunmamaktadır");
-            //}
-
-
-
-
             //string input;
             //Console.WriteLine("Ne ariyorsunuz:");
             //input = Console.ReadLine();
@@ -283,46 +233,21 @@ namespace KararYapilari
             //string input;
             //Console.WriteLine("Mevsim Giriniz:");
             //input = Console.ReadLine();
-
+            
             //if (input == "kış" || input == "Kış")
             //{
             //    Console.WriteLine("Aralık, Ocak, Şubat");
             //}
             //gibi devam ettir.
 
+            /*
+             Ekrandan suyun sicakligini alin. Ve Kati ,sivi ,Gaz halini belirleyin
+             */
 
-            // Ekrandan suyun sicakligini alin. Ve Kati ,sivi ,Gaz halini belirleyin
-
-            //BEN YAZDIM!!!
-
-            //int Sıcaklığı;
-            //Console.WriteLine("Suyun sıcaklığını yazınız");
-            //Sıcaklığı = int.Parse(Console.ReadLine());
-
-            //if (Sıcaklığı < 0)
-            //{
-            //    Console.WriteLine("Katı halededir");
-            //}
-            //else if (Sıcaklığı > 0 && Sıcaklığı < 100)
-            //{
-            //    Console.WriteLine("sıvı haldedir");
-            //}
-            //else if (Sıcaklığı > 100)
-            //{
-            //    Console.WriteLine("gaz halindedir");
-            //}
-
-            //  Girilen bir tam sayinin kaç basamakli oldugunu ekrana yaziniz.
-
-            int  sayı;
-
-            Console.WriteLine("Bir sayı yazınız");
-            sayı= int.Parse(Console.ReadLine());
-
-      
-
+            /*
+             Girilen bir tam sayinin kaç basamakli oldugunu ekrana yaziniz.
              
-             
+             */
             #endregion
 
 

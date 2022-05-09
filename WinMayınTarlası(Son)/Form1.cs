@@ -3,13 +3,12 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
-using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WinNotePad
+namespace WinMayınTarlası_Son_
 {
     public partial class Form1 : Form
     {
@@ -18,14 +17,5 @@ namespace WinNotePad
             InitializeComponent();
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-            textBox1.Text = File.ReadAllText(@"c:\benimKlasorum\test.txt");
-        }
     }
 }

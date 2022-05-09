@@ -20,6 +20,37 @@ namespace ParametreliMetodlar
 
             //2- Verilen sayının asal sayı olup olmadığını belirleyen metod
         }
+        /// <summary>
+        /// verilen intdeğerleri toplar
+        /// </summary>
+        /// <param name="sayi1">int tipinde</param>
+        /// <param name="sayi2">int tipinde</param>
+        /// <returns>int tipinde</returns>
+        public static int topla(int sayi1, int sayi2)
+        {
+            return sayi1 + sayi2;
+        }
+        /// <summary>
+        /// 3 lü parametre mesela intler paramtre
+        /// </summary>
+        /// <param name="sayi1"></param>
+        /// <param name="sayi2"></param>
+        /// <param name="sayi3"></param>
+        /// <returns></returns>
+        public static int topla(int sayi1, int sayi2, int sayi3)
+        {
+            return sayi1 + sayi2 + sayi3;
+        }
+        public static int topla(params int[] parametreler)
+        {
+            int toplam = 0;
+            foreach (var item in parametreler)
+            {
+                toplam += item;
+            }
+            return toplam;
+        }
+
         public static void sesliHarfSayisi(string cumle)
         {
             // türkçe harfler : ç,ö,ü,ş,ğ,ı
