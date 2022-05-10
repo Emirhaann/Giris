@@ -55,15 +55,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System_IO", "System_IO\Syst
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinNotePad", "WinNotePad\WinNotePad.csproj", "{B9FEDB97-8388-443B-8C38-D4D0E8560E70}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OutParametre (Son1)", "OutParametre (Son1)\OutParametre (Son1).csproj", "{D80366EE-2EC5-4D80-9BA7-D790A66DCB92}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OutParametre (Son1)", "OutParametre (Son1)\OutParametre (Son1).csproj", "{D80366EE-2EC5-4D80-9BA7-D790A66DCB92}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefParametre(Son2)", "RefParametre(Son2)\RefParametre(Son2).csproj", "{00D3C45A-EEB2-4774-84DE-843196385D82}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RefParametre(Son2)", "RefParametre(Son2)\RefParametre(Son2).csproj", "{00D3C45A-EEB2-4774-84DE-843196385D82}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecursiveMetodlar(SOon3)", "RecursiveMetodlar(SOon3)\RecursiveMetodlar(SOon3).csproj", "{AE75DC86-6262-4AF5-A0C1-A12E21AF44A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecursiveMetodlar(SOon3)", "RecursiveMetodlar(SOon3)\RecursiveMetodlar(SOon3).csproj", "{AE75DC86-6262-4AF5-A0C1-A12E21AF44A3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SystemIOWinForm(son4)", "SystemIOWinForm(son4)\SystemIOWinForm(son4).csproj", "{93DB8154-BC56-417C-90AC-2EA1CE7A4618}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SystemIOWinForm(son4)", "SystemIOWinForm(son4)\SystemIOWinForm(son4).csproj", "{93DB8154-BC56-417C-90AC-2EA1CE7A4618}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinMayınTarlası(Son)", "WinMayınTarlası(Son)\WinMayınTarlası(Son).csproj", "{A96C79B8-A840-49A8-BE2B-3E87CAEC87CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinMayınTarlası(Son)", "WinMayınTarlası(Son)\WinMayınTarlası(Son).csproj", "{A96C79B8-A840-49A8-BE2B-3E87CAEC87CE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab", "Lab", "{4D8D21FB-A978-43D6-8FEC-F91579B022ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonelTakip(1)", "PersonelTakip(1)\PersonelTakip(1).csproj", "{19F3BB82-2768-4F14-AA30-0FE827D1A40E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -183,6 +187,10 @@ Global
 		{A96C79B8-A840-49A8-BE2B-3E87CAEC87CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A96C79B8-A840-49A8-BE2B-3E87CAEC87CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A96C79B8-A840-49A8-BE2B-3E87CAEC87CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19F3BB82-2768-4F14-AA30-0FE827D1A40E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19F3BB82-2768-4F14-AA30-0FE827D1A40E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19F3BB82-2768-4F14-AA30-0FE827D1A40E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19F3BB82-2768-4F14-AA30-0FE827D1A40E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -211,6 +219,7 @@ Global
 		{AE75DC86-6262-4AF5-A0C1-A12E21AF44A3} = {080B758E-C50B-491C-8D8B-0DA8B5D82D9F}
 		{93DB8154-BC56-417C-90AC-2EA1CE7A4618} = {080B758E-C50B-491C-8D8B-0DA8B5D82D9F}
 		{A96C79B8-A840-49A8-BE2B-3E87CAEC87CE} = {080B758E-C50B-491C-8D8B-0DA8B5D82D9F}
+		{19F3BB82-2768-4F14-AA30-0FE827D1A40E} = {4D8D21FB-A978-43D6-8FEC-F91579B022ED}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {83CA42C6-BD19-410E-B630-567500E470DD}
