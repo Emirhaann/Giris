@@ -1,4 +1,4 @@
-﻿namespace PersonelTakip_1_
+﻿namespace PersonelTakip
 {
     partial class Form1
     {
@@ -75,7 +75,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::PersonelTakip_1_.Properties.Resources._138_1387674_png_file_svg_user_login_icon_png;
+            this.pictureBox1.Image = global::PersonelTakip.Properties.Resources._138_1387674_png_file_svg_user_login_icon_png;
             this.pictureBox1.Location = new System.Drawing.Point(509, 80);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(177, 138);

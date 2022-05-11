@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PersonelTakip;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -8,7 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace PersonelTakip_1_
+namespace PersonelTakip
 {
     public partial class Form1 : Form
     {
@@ -50,7 +51,7 @@ namespace PersonelTakip_1_
 
             if (txtKullanici.Text == "admin" && txtŞifre.Text == "qweasd")
             {
-                PersonelKayıt personeFrm = new PersonelKayıt();
+                PersonelKayit personeFrm = new PersonelKayit();
 
                 personeFrm.ShowDialog();
             }

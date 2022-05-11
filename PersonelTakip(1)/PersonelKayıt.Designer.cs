@@ -1,6 +1,6 @@
-﻿namespace PersonelTakip_1_
+﻿namespace PersonelTakip
 {
-    partial class PersonelKayıt
+    partial class PersonelKayit
     {
         /// <summary>
         /// Required designer variable.
@@ -84,7 +84,6 @@
             this.dtpDogumTarihi.Name = "dtpDogumTarihi";
             this.dtpDogumTarihi.Size = new System.Drawing.Size(127, 29);
             this.dtpDogumTarihi.TabIndex = 10;
-            this.dtpDogumTarihi.ValueChanged += new System.EventHandler(this.DateTimePicker_ValueChanged);
             // 
             // labelEmail
             // 
@@ -145,7 +144,6 @@
             this.labelSoyad.Size = new System.Drawing.Size(57, 21);
             this.labelSoyad.TabIndex = 3;
             this.labelSoyad.Text = "Soyad";
-            this.labelSoyad.Click += new System.EventHandler(this.txtSoyad_Click);
             // 
             // txtSoyad
             // 
@@ -162,7 +160,6 @@
             this.txtAd.Name = "txtAd";
             this.txtAd.Size = new System.Drawing.Size(127, 24);
             this.txtAd.TabIndex = 1;
-            this.txtAd.TextChanged += new System.EventHandler(this.txtAd_TextChanged);
             // 
             // labelAd
             // 
@@ -204,7 +201,7 @@
             this.listBox1.Size = new System.Drawing.Size(320, 244);
             this.listBox1.TabIndex = 4;
             // 
-            // PersonelKayıt
+            // PersonelKayit
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -213,9 +210,9 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.groupBox1);
-            this.Name = "PersonelKayıt";
+            this.Name = "PersonelKayit";
             this.Text = "PersonelKayıt";
-            this.Load += new System.EventHandler(this.PersonelKayıt_2__Load);
+            this.Load += new System.EventHandler(this.PersonelKayit_Load_1);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
